@@ -1,1 +1,1 @@
-# image_kmod_squashfs
+# image_squashfs
