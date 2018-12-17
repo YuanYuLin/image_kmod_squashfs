@@ -49,6 +49,11 @@ def MAIN_INSTALL(args):
     ops.copyto(ops.path_join(output_dir, squashfs_name), iopc.getOutputRootDir())
     return False
 
+def MAIN_SDKENV(args):
+    set_global(args)
+
+    return False
+
 def MAIN_CLEAN_BUILD(args):
     set_global(args)
 
